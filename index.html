@@ -3,14 +3,18 @@
   <head>
     <meta charset="utf-8" />
     <title>Dice Game</title>
-    <link rel="stylesheet" href="styles.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bangers&family=DM+Serif+Text:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <div class="container">
       <p>Refresh the page to play</p>
+        <button type="button" class="button" onClick="window.location.reload();">
+        <span class="lable">Refresh</span>
+      </button>
       <h1>Dice Game by Kusza</h1>
       <div class="dice">
         <p>Player 1</p>
@@ -25,6 +29,7 @@
 
     <footer>Made by Kusza<br>
     Inspired by <a href="https://www.udemy.com/course/the-complete-web-development-bootcamp">Angela Yu's Udemy</a> course.</footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
     <script src="./index.js" charset="utf-8"></script>
   </body>
 </html>
