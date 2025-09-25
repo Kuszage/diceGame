@@ -16,7 +16,7 @@ body {
 
 h1 {
   margin: 30px;
-  font-family: 'Lobster', cursive;
+  font-family: 'Bangers', bold;
   text-shadow: 5px 0 #577BC1;
   font-size: 8rem;
   color: #344CB7;
@@ -25,7 +25,7 @@ h1 {
 p {
   font-size: 2rem;
   color: #344CB7;
-  font-family: 'Indie Flower', cursive;
+  font-family: 'Bangers', bold;
   text-shadow: 2px 0 #577BC1;
 }
 
@@ -37,6 +37,56 @@ footer {
   margin-top: 5%;
   color: #F6DC43;
   text-align: center;
-  font-family: 'Indie Flower', cursive;
+  font-family: 'Bangers', bold;
 
+}
+
+.button {
+  align-items: center;
+  padding: 8px 12px 8px 16px;
+  gap: 8px;
+  height: 40px;
+  width: 128px;
+  border: none;
+  background: #056bfa27;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.lable {
+  margin-top: 1px;
+  font-size: 19px;
+  line-height: 22px;
+  color: #056dfa;
+  letter-spacing: 1px;
+}
+
+.button:hover {
+  background: #056bfa49;
+}
+
+.button:hover .svg-icon {
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  25% {
+    transform: rotate(-8deg);
+  }
+
+  50% {
+    transform: rotate(0deg);
+  }
+
+  75% {
+    transform: rotate(8deg);
+  }
+
+  100% {
+    transform: rotate(0deg);
+  }
 }
